@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+background-image: url(./Links2/background.jpg);
+background-size: cover;
+}
+
+
+
+main{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-family:"Playwrite DE VA", cursive;
+}
+
+main p{
+    font-family: "Shantell Sans", cursive;
+    
+    
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+}
+
+.box{
+    background-color: #F8F5EA;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 15px 15px 90px 15px;
+    
+}
+
+.box p{
+    margin-top: 50px;
+}
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+    
+    
+   
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    border: 5px solid #E0D384;
+    border-radius: 10px;
+    background-color: #F8F5EA;
+    padding: 50px;
+    gap: 50px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+
+section h2{
+    font-size: 30px;
+    font-family: "Beiruti", sans-serif;
+}
+
+
+
+.photo img{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 30px;
+}
+
+
+input, select, textarea {
+    width: 30%; 
+    padding: 10px; 
+    border: 1px solid black; 
+    border-radius: 3px;
+    margin-top: 15px; 
+    margin-bottom: 20px; 
+    font-family: "Beiruti", sans-serif;
+    font-size: 20px;
+  }
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5px;
+}  
+  
+input[type=submit] {
+    width: 5%;
+    font-size: 15px;
+    background-color: #85E0B8;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto 50px auto;
+    
+  }
+  
+  
+  input[type=submit]:hover {
+    color: rgba(128, 122, 122, 0.307);
+  }
+  
+ 
+
+
+footer a{
+    width: 5%;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #E0D384;
+    color: white;
+    font-family: "Beiruti", sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px auto 50px auto;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(128, 122, 122, 0.307);
+}
